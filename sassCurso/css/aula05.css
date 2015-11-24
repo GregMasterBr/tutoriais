@@ -1,0 +1,60 @@
+/* line 10, ../sass/aula05.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 13, ../sass/aula05.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 16, ../sass/aula05.scss */
+.verde {
+  color: green;
+}
+
+/* line 20, ../sass/aula05.scss */
+.error {
+  font-color: white;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #abcdef;
+}
+
+/* line 27, ../sass/aula05.scss */
+.selected {
+  border: 1px #abcdef solid;
+}
+
+/* line 30, ../sass/aula05.scss */
+.selected2 {
+  border: 1px #abcdef solid;
+}
+
+/* line 34, ../sass/aula05.scss */
+nav {
+  border: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  border-left: 0px;
+  border-right: 0px;
+}
+/* line 42, ../sass/aula05.scss */
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Times New Roman",Times,serif;
+  font-style: italic;
+  font-size: 14px;
+}
+/* line 52, ../sass/aula05.scss */
+nav li {
+  display: inline-block;
+}
+/* line 55, ../sass/aula05.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin links-colors($normal,$hover,$visited) {
+	color:$normal;
+	&:hover{ color:$hover;}
+	&:visited{ color:$visited;}
+}
+
+@mixin links-colors2($normal,$hover:$normal,$visited:$normal) {
+	color:$normal;
+	&:hover{ color:$hover;}
+	&:visited{ color:$visited;}
+}

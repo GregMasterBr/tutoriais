@@ -1,0 +1,41 @@
+/* line 3, ../sass/aula08-ex.scss */
+.noticia {
+  background-color: green border 2px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 8, ../sass/aula08-ex.scss */
+.noticia a {
+  color: blue;
+}
+/* line 10, ../sass/aula08.scss */
+.noticia a:hover {
+  color: yellow;
+}
+/* line 11, ../sass/aula08.scss */
+.noticia a:visited {
+  color: green;
+}
+/* line 11, ../sass/aula08-ex.scss */
+.noticia .link {
+  color: red;
+}
+/* line 16, ../sass/aula08.scss */
+.noticia .link:hover {
+  color: red;
+}
+/* line 17, ../sass/aula08.scss */
+.noticia .link:visited {
+  color: red;
+}
+
+/* line 17, ../sass/aula08-ex.scss */
+.headline {
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}

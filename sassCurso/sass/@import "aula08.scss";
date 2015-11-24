@@ -1,0 +1,7 @@
+@import "aula08.scss";
+
+.noticia{
+	background-color:green
+	border 2px solid #000;
+	@include rounded-corners;
+}
