@@ -1,0 +1,367 @@
+.pagina{
+	width: 100%;
+    overflow-x: hidden;
+}
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #5E299A;
+	position: relative;
+	background: rgba(91, 41, 154,.8);
+	z-index: 2;
+
+}
+	header .container{
+		position: relative;
+	}
+	header .all-teams{
+		background-color: #000;
+		height: 40px;
+		width: 100%;
+	}
+	header .logo{
+		position: absolute;
+		top:-15px;
+	}
+
+
+
+.all-teams {
+	display: block;
+	margin: 0px;
+	text-align:center; 
+	padding-top: 5px;
+}
+.all-teams .sprite-teams{
+	display: block;
+}
+
+.banner-club-logo {
+	background-image: url("../img/sprite-teams.png");
+    display: inline-block;
+    height: 30px;
+    margin: 0 0 0 2px;
+    padding: 0;
+    width: 30px;
+}
+.banner-logo {
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+/*Positions Teams*/
+.banner-club-logo.chicago {
+    background-position: 0px 0px;
+}
+.banner-club-logo.lafc {
+    background-position: 0px -45px;
+}
+.banner-club-logo.colorado {
+    background-position: 0px -90px;
+}
+.banner-club-logo.columbus {
+    background-position: 0px -135px;
+}
+.banner-club-logo.dc {
+    background-position: 0px -180px;
+}
+.banner-club-logo.dallas {
+    background-position: 0px -225px;
+}
+.banner-club-logo.houston {
+    background-position: 0px -270px;
+}
+.banner-club-logo.los-angeles {
+    background-position: 0px -315px;
+}
+.banner-club-logo.montreal {
+    background-position: 0px -360px;
+}
+.banner-club-logo.new-england {
+    background-position: 0px -405px;
+}
+.banner-club-logo.new-york {
+    background-position: 0px -450px;
+}
+.banner-club-logo.new-york-2 {
+    background-position: 0px -495px;
+}
+.banner-club-logo.philadelphia {
+    background-position: 0px -540px;
+}
+.banner-club-logo.portland {
+    background-position: 0px -585px;
+}
+.banner-club-logo.salt-lake {
+    background-position: 0px -630px;
+}
+.banner-club-logo.san-jose {
+    background-position: 0px -675px;
+}
+.banner-club-logo.seattle {
+    background-position: 0px -720px;
+}
+.banner-club-logo.kansas-city {
+    background-position: 0px -765px;
+}
+.banner-club-logo.toronto {
+    background-position: 0px -810px;
+}
+.banner-club-logo.vancouver {
+    background-position: 0px -855px;
+}
+.banner-club-logo.atlanta {
+    background-position: 0px -900px;
+}
+.banner-club-logo.orlando {
+    background-position: 0px -945px;
+}
+
+
+#menu{
+	padding-top: 10px;
+	margin: 20px 0px;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+#menu li:last-child{
+	width: 182px;
+}
+#menu li:last-child .searcher{
+	background: #5C2D90;
+	color: #fff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+
+}
+#menu li:last-child .searcher::-webkit-input-placeholder{
+	color: #fff;
+
+}
+
+#menu li:last-child  button{
+	background: none;
+	border: none;
+	position: absolute;
+	right: 0px;
+	z-index: 999;
+	top: 7px;
+}
+#menu li:last-child button i{
+	font-size: 14px;
+	color: #fff;
+	color: rgba(255,255,255,.5);
+	padding-right: 5px;
+}
+#menu li:last-child .input-group{
+	top: 8px;
+}
+.banner{
+	width: 100%;
+	height: 728px;
+	position: relative;
+	
+	background: url("../img/banner.jpg") no-repeat;
+	background-size: 100%;
+	top:-280px;
+	top: -110px;
+	background-position: 0px -100px;
+}
+.banner h1{
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 4px 4px rgba(0,0,0,.45);
+	font-weight: bold;
+	text-align:center; 
+}
+.banner h1 small{
+	font-size: 32px;
+	display: block;
+	color: #fff;
+	text-shadow: 2px 2px rgba(255,255,255,.45);
+	text-align: center;
+	padding: 10px;	
+	/*color: rgba(91, 41, 154,.8);*/
+	background: rgba(91, 41, 154,.6);
+}
+
+.news{
+	position: relative;
+	top: -110px;
+}
+.news h2{
+	color: #5E2799;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.news hr{
+	border: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+.news .thumbnails{
+	margin-top: 20px;
+}
+.news .thumbnails h3{
+	color: #5E299A;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	text-align: justify;
+}
+.news .thumbnails time{
+	color: #A7A7A7;
+	font-size: 12px;
+}
+
+.staticts{
+	width: 100%;
+	height: 200px;
+	background-color: #5E299A;
+	text-align: center;
+}
+
+.staticts h3{
+	color: #FDE092;
+	font-size: 64px;
+	padding-top: 20px;
+}
+.staticts h4{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.advertainment{
+	width: 100%;
+	background: #fff;
+	height: 300px;
+}
+.advertainment h2{
+	padding: 20px;
+	color: #5E2799;
+
+}
+.advertainment h2 span{
+	border-bottom: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+.advertainment p{
+	margin-top: 10px;
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: 656565;
+}
+.advertainment .opt-buttons{
+	margin-top: 50px;
+}
+.advertainment .opt-buttons button{
+	width: 120px;
+	margin-left: 20px;
+}
+
+footer{
+    width: 100%;
+	background: #000;
+	height: 220px;
+	color: #fff;
+}
+footer .info{
+	height: 85%;
+	width: 100%;
+	background: #11171D;
+}
+footer .info .logotipo{
+	margin-top: 15px;
+}
+
+footer .info h5{
+	margin-top: 25px;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	border-bottom: solid #ccc 1px;
+}
+		footer .popular-post{
+
+		}
+			footer .popular-post ul{
+
+			}
+				footer .popular-post ul li{
+
+				}
+					footer .popular-post ul li time{
+						font-size: 10px;
+						color:yellow;
+					}	
+		footer .menu-footer{
+			
+		}
+					footer .menu-footer ul li a{
+						color: #fff;
+						font-size: 12px;
+					}
+		footer .adreess{
+			
+		}	
+			footer .adreess address,footer .adreess a,footer .adreess i{
+					color: #9B9B9B;
+			}	
+			footer .adreess .social{
+				margin-top: 4px;
+			}
+				footer .adreess .social li{
+					display: inline-block;
+				}
+				footer .adreess .social a{
+					display: block;
+					border: #9B9B9B 1px solid;
+					width: 28px;
+					height: 28px;
+					line-height: 28px;
+					border-radius:14px;
+					text-align: center; 
+				}
+				footer .adreess .social i{
+					font-size: 16px;
+					margin: 7px auto;
+				}
+
+footer .copyright{
+	width: 100%;
+	height: 15%;
+	background: #fff;
+	background: rgba(91, 41, 154,.6);
+	color:#fff;
+	border-top: solid #fff 1px;
+}
+
+footer .copyright p{
+	padding: 5px 0px;
+}
+footer .copyright p:first-child{
+	 color: #666;
+	 font-weight: bold;
+	 font-size: 16px;
+}
+footer .copyright p:last-child{
+	 color: #623291;
+	 font-weight: bold;
+	 font-size: 14px;
+}
