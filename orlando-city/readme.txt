@@ -4,7 +4,7 @@
 #local tutorial: https://www.udemy.com/curso-html5-css3-javascript/learn/
 #Professor/Tutor: Glaucio Daniel Souza Santo, João Rangel
 
-#Nome Projeto:SASS
+#Nome Projeto:OnPage Orlando City
 #Objetivo: Desenvolvedor FULLSTACK, 
 #Ferramentas:HTML5, CSS3, JavaScript, Angular, React,Php
 
